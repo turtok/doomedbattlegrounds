@@ -77,9 +77,15 @@
      <Compile Include="Assets\Plugins\iOS\UnityARKit\Utility\UnityARAnchorManager.cs" />
      <Compile Include="Assets\Plugins\iOS\UnityARKit\Utility\UnityARMatrixOps.cs" />
      <Compile Include="Assets\Plugins\iOS\UnityARKit\Utility\UnityARUtility.cs" />
+     <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\TouchScript\license.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileARShadow.shader" />
-     <None Include="Assets\Examples\InstancedSurfaceShader.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Volumes/Barracuda/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -100,6 +106,12 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Volumes/Barracuda/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Volumes/GitRepository/doomedBattlegrounds/ARDemo/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>/Volumes/GitRepository/doomedBattlegrounds/ARDemo/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

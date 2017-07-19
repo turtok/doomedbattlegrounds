@@ -47,9 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
+     <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\TouchScript\license.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileARShadow.shader" />
-     <None Include="Assets\Examples\InstancedSurfaceShader.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Volumes/Barracuda/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -115,6 +121,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Volumes/Barracuda/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Volumes/GitRepository/doomedBattlegrounds/ARDemo/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>/Volumes/GitRepository/doomedBattlegrounds/ARDemo/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

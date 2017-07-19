@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ManaController : MonoBehaviour {
 
-	public float speed = 0.1f;
-	public int mana = 0;
+	public float speed = 0.05f;
+	public int mana = 5;
 	private Image manaImage;
 
 	// Use this for initialization
@@ -25,6 +25,10 @@ public class ManaController : MonoBehaviour {
 			manaImage.fillAmount += speed * Time.deltaTime;
 			mana = getMana (manaImage.fillAmount);
 		}
+	}
+
+	public void SubtractMana(int amount) {
+		manaImage.fillAmount -= amount * 0.1f;
 	}
 
 	private int getMana(float fillAmount) {
